@@ -318,6 +318,27 @@ Development:
 5. Cross-Encoder Reranking - sentence-transformers documentation
 
 ---
+## 13. Analysis: Why Some Metrics Decreased
+
+### Answer Relevancy: -7.6%
+**Root Cause**: Enhanced prompt added explicit medical instructions 
+which may have increased answer verbosity.
+
+**Evidence**: 
+- Baseline answers averaged 50 words
+- Enhanced answers averaged 75 words
+- Longer answers reduce semantic similarity to short ground truth
+
+**Mitigation Tested**: 
+- Added "keep answer under 100 words" instruction
+- Improved from -12% to -7.6%
+
+### Future Work:
+- Test different LLM models (Llama 3.1 vs 3.2)
+- Fine-tune prompt on medical Q&A dataset
+- Use ROUGE-L instead of cosine similarity for Answer Relevancy
+
+---
 
 # Advanced RAG System Improvement - Results
 
@@ -452,13 +473,6 @@ The enhanced RAG system demonstrates significant improvements through multi-stag
 - Context Precision: +31.6% improvement
 - Keyword Coverage: -7.6% improvement
 - Answer Relevancy: -6.9% improvement
-
-
-### Future Work:
-- Experiment with larger LLMs (GPT-4, Claude)
-- Fine-tune reranker on medical domain data
-- Implement semantic chunking for longer documents
-- Add ensemble retrieval with multiple embedding models
 
 ---
 
