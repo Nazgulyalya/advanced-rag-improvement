@@ -1,0 +1,35 @@
+{
+  "name": "baseline",
+  "timestamp": "2025-12-23 10:55:21",
+  "metrics": {
+    "context_precision": 0.7999999999999999,
+    "answer_relevancy": 0.5982911388079325,
+    "keyword_coverage": 0.6
+  },
+  "details": [
+    {
+      "question": "What are the main risk factors for type 2 diabetes?",
+      "metrics": {
+        "context_precision": 0.4,
+        "answer_relevancy": 0.335466206073761,
+        "keyword_coverage": 0.2
+      }
+    },
+    {
+      "question": "How effective are COVID-19 vaccines?",
+      "metrics": {
+        "context_precision": 1.0,
+        "answer_relevancy": 0.6874945163726807,
+        "keyword_coverage": 0.6
+      }
+    },
+    {
+      "question": "What is cancer immunotherapy?",
+      "metrics": {
+        "context_precision": 1.0,
+        "answer_relevancy": 0.771912693977356,
+        "keyword_coverage": 1.0
+      }
+    }
+  ]
+}
