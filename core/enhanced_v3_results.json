@@ -1,0 +1,66 @@
+{
+  "name": "enhanced_v3",
+  "timestamp": "2025-12-23 13:32:32",
+  "metrics": {
+    "context_precision": 0.8333333333333334,
+    "answer_relevancy": 0.5478050659100214,
+    "keyword_coverage": 0.6
+  },
+  "test_size": 6,
+  "details": [
+    {
+      "question": "What are the main risk factors for type 2 diabetes?",
+      "metrics": {
+        "context_precision": 0.6,
+        "answer_relevancy": 0.3073004186153412,
+        "keyword_coverage": 0.0
+      },
+      "answer": "According to the provided medical literature, the main risk factors for type 2 diabetes are prediabetes, impaired thermoregulatory responses to increased core body temperature, psychosocial and cultural factors affecting self-care, and a history of gestational diabetes mellitus (GDM). Specifically, individuals with prediabetes have a significantly increased risk of developing type 2 diabetes due to the metabolic condition's association with insulin resistance and beta-cell dysfunction. Additionally, women who develop GDM have a higher lifetime risk of developing type 2 diabetes, highlighting the importance of early detection and intervention."
+    },
+    {
+      "question": "How effective are COVID-19 vaccines?",
+      "metrics": {
+        "context_precision": 1.0,
+        "answer_relevancy": 0.5753425359725952,
+        "keyword_coverage": 0.6
+      },
+      "answer": "According to the provided medical literature, COVID-19 vaccines have been shown to be highly effective in preventing severe illness and hospitalization due to SARS-CoV-2 infection. A randomized trial (NCT04754594) demonstrated that the BNT162b2 vaccine was 92% effective in preventing moderate to severe COVID-19 among pregnant women during the second trimester of pregnancy. Additionally, studies have shown that individuals with autoimmune diseases on immunosuppressants may have suboptimal responses to COVID-19 vaccines, highlighting the need for alternative vaccination strategies (Source 5). Overall, the evidence suggests that COVID-19 vaccines are a crucial tool in combating the pandemic and reducing transmission of SARS-CoV-2."
+    },
+    {
+      "question": "What is cancer immunotherapy?",
+      "metrics": {
+        "context_precision": 1.0,
+        "answer_relevancy": 0.7215805649757385,
+        "keyword_coverage": 1.0
+      },
+      "answer": "Cancer immunotherapy refers to a type of treatment that uses the body's immune system to fight cancer. It involves the use of various strategies, including checkpoint inhibitors (e.g., pembrolizumab) and targeted therapies (e.g., tyrosine kinase inhibitors), to enhance the immune response against cancer cells. Immunotherapy can be used as a standalone treatment or in combination with other treatments, such as chemotherapy or radiation therapy. The literature highlights the potential of immunotherapy in various cancers, including urothelial carcinoma, renal cell carcinoma, prostate cancer, and testicular germ cell tumors, among others."
+    },
+    {
+      "question": "What are the symptoms of hypertension?",
+      "metrics": {
+        "context_precision": 0.8,
+        "answer_relevancy": 0.6276810765266418,
+        "keyword_coverage": 1.0
+      },
+      "answer": "Hypertension (HTN) is characterized by elevated blood pressure levels, which can lead to various symptoms. According to Source 1, patients with HTN often experience lower heart rate variability (HRV), as well as psychological and sleep disturbances. Specifically, hypertension can cause symptoms such as palpitations, shortness of breath, chest pain, headaches, dizziness, and fatigue (Source 3). Additionally, hypertension is a major cardiovascular risk factor in individuals with prediabetes and type 2 diabetes (T2D), which can lead to complications such as cardiovascular disease, kidney damage, and stroke (Source 2)."
+    },
+    {
+      "question": "How is Alzheimer's disease diagnosed?",
+      "metrics": {
+        "context_precision": 0.8,
+        "answer_relevancy": 0.450374960899353,
+        "keyword_coverage": 0.6666666666666666
+      },
+      "answer": "Alzheimer's disease (AD) is typically diagnosed based on a combination of clinical evaluation, laboratory tests, and imaging studies. A clinical diagnosis of probable AD or mild cognitive impairment with positive biomarkers for AD, as mentioned in Source 5, can be made using standardized criteria such as the National Institute on Aging-Alzheimer's Association (NIA-AA) guidelines. Additionally, laboratory tests may include measurements of amyloid-beta (A\u03b2) levels and tau protein tangles, which are pathological hallmarks of AD. Imaging studies, such as positron emission tomography (PET) scans, can also be used to detect A\u03b2 plaques and tau tangles in the brain."
+    },
+    {
+      "question": "What medications treat hypertension?",
+      "metrics": {
+        "context_precision": 0.8,
+        "answer_relevancy": 0.604550838470459,
+        "keyword_coverage": 0.3333333333333333
+      },
+      "answer": "According to the provided medical literature, medications that treat hypertension include mineralocorticoid receptor antagonists (MRAs), such as those used to treat primary aldosteronism (PA). Additionally, direct renin inhibitors, primarily aliskiren, have been compared to angiotensin-converting enzyme inhibitors (ACEi) and angiotensin receptor blockers (ARBs) in managing hypertension. The literature also mentions the use of a quadpill containing a quarter dosage of four classes of medication as an effective treatment for hypertension."
+    }
+  ]
+}
