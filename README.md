@@ -3,6 +3,7 @@
 
 **Project**: Medical Literature Retrieval-Augmented Generation (RAG) System Enhancement  
 **Baseline System**: [medical-rag](https://github.com/Nazgulyalya/medical-rag)
+**Video-link**: [link](https://youtu.be/5xR42QGPSpo)
 
 ---
 
